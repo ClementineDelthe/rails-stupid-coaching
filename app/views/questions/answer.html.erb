@@ -1,6 +1,6 @@
-<p><%= params[:value] %></p>
+<p class="value"><strong>You: <%= params[:value] %></strong></p>
 <hr>
-<p><%= @answer %></p>
+<p class="answer">Your coach : <%= @answer %></p>
 <hr>
 
-<button class="btn-danger"><%= link_to "Ask a new question", ask_path %></button>
+<button class="btn-light "><%= link_to "Ask a new question", ask_path %></button>
